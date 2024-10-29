@@ -1,0 +1,19 @@
+
+/* Tiny MCE CSS */ 
+
+i.bpquotes-tinymce-icon {
+    background-image: url('../images/bpq_tinymce.png');
+}
+
+/* Settings Page Styling */
+
+.bpq_credits{
+padding:5px; border-style:solid grey; background-color:#C8C3C3;
+}
+
+.bpq_logo{
+padding:20px;
+}
+
+img.bpqstyle{
+padding: 10px;}

@@ -1,0 +1,105 @@
+/* Beautiful Pull Quotes - Wordpress Plugin*/
+/* Custom CSS */
+/* Version 1.0 */
+
+
+/* Basic Style */
+
+.bpq_basic{
+    position: relative;
+    box-shadow: 5px 5px 5px #EDECEC;
+    width:40%;
+    font-size: 25px;
+    margin:0.5em;
+    padding:10px;
+    border-top: solid;
+}
+
+
+.bpq_basic:hover{
+    box-shadow: 5px 5px 5px #CCCCCC;
+}
+
+.bpq_basic p:before{
+    content: url('../images/topq.png');
+}
+
+.bpq_basic p:after{
+    content: url('../images/bottomq.png');
+    float:right !important;
+
+}
+
+.bpq_basic cite{
+    float:right;
+    font-size:18px;
+
+}
+/* Gradient Style */
+
+.bpq_gradient{
+    overflow: auto;
+    position: relative;
+    width:40%;
+    font-size: 25px;
+    margin:0.5em;
+    padding:10px;
+    color:#434040;
+    border-style: solid;
+    border-image: url('../images/border.png') 50 50 50 20;
+    border-width: 15px 10px 5px 0;
+}
+.bpq_gradient p{
+    padding-bottom: 0px;
+}
+.bpq_gradient cite{
+    padding-top:0;
+    float:right;
+    font-size:15px;
+    text-decoration: italic;
+    color:#615C5C;
+}
+
+.bpq_gradient:first-letter{
+font-size: 30px;
+}
+
+/* Classic Style */
+
+.bpq_classic{
+    width: 40%;
+    margin:0.6em;
+    padding:10px;
+    background-color: #E6E6E6;
+    color:#525252;
+    font-size: 20px;
+    box-shadow: 7px 7px 8px 0px #878686;
+    background-image: url('../images/classic_quote.png');
+    background-position: bottom-right;
+    background-repeat: no-repeat;
+}
+
+.bpq_classic p{
+    padding-left:40px;
+}
+
+.bpq_classic cite{
+    float: right;
+    text-decoration: italic;
+    font-size:15px;
+}
+
+/* Classes for common alignment */
+.bpq-left{
+    float:left !important;
+}
+
+.bpq-right{
+    float:right !important;
+}
+
+.bpq-full{
+    float:none;
+    width: 90% !important;
+    margin: 0.5em auto !important;
+}
